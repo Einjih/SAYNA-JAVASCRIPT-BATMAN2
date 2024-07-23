@@ -420,3 +420,26 @@ body {
 }
 
 
+/** Popupbox */
+
+#popupbox{
+    background: linear-gradient(
+        150deg,var(--grey-color),var(--blue-color));
+        padding: 70px 0;
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        position: fixed;
+        top: 300px;
+        left: 300px;
+        display: none;
+}
+.inside{
+    padding: 50px;
+    margin: 30px;
+    background-color: var(--blue-color);
+    border-radius: 20px;
+    box-shadow: 2px 2px 40px black;
+    text-transform: uppercase;
+}
+

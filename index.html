@@ -10,6 +10,13 @@
     <div class="border-left"></div>
     <div class="border-right"></div>
     <div class="border-top"></div>
+
+
+    <div id="popupbox" class="popupbox">
+        <div class="inside">
+            Message reçu!
+        </div>
+    </div>
     
     <header >
         
@@ -236,9 +243,9 @@
 
             <div class="form">
                 <h2>PRENONS CONTACT </h2>
-                <form action="">
+                <form action="" id="myForm">
                     <label class="titre" for="email">ADRESSE EMAIL</label>
-                    <input type="email" name="email" placeholder="Adresse email"> <br>
+                    <input id="email" type="email" name="email" placeholder="Adresse email"> <br>
                     <label class="titre" for="newsletter">NEWSLETTER</label> <br>
                     <label for="">En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de Batman :</label>
                     <input type="checkbox" name="newsletter"><br>
@@ -319,5 +326,6 @@
             reset: true // Réinitialiser l'animation à chaque fois qu'elle devient visible
         });
     </script>
+    <script src="./assets/js/validator.js"></script>
 </body>
 </html>
